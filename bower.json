@@ -1,0 +1,8 @@
+{
+  "name": "chrome-platform-analytics",
+  "version": "0.1.0",
+  "main": "google-analytics-bundle.js",
+  "ignore": [],
+  "dependencies": {},
+  "devDependencies": {}
+}
