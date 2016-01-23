@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+goog.require('analytics');
 goog.require('analytics.EventBuilder');
 goog.require('analytics.HitTypes');
 goog.require('analytics.ParameterMap');
@@ -189,6 +190,13 @@ goog.object.forEach(
           'analytics.Parameters.' + name,
           value);
     });
+
+goog.exportSymbol(
+    'analytics.createDimensionParam',
+    analytics.createDimensionParam);
+goog.exportSymbol(
+    'analytics.createMetricParam',
+    analytics.createMetricParam);
 
 // EXTRAS...
 
