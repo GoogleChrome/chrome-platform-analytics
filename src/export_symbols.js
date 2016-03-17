@@ -197,6 +197,13 @@ goog.object.forEach(
           value);
     });
 
+goog.exportSymbol(
+    'analytics.createDimensionParam',
+    analytics.createDimensionParam);
+goog.exportSymbol(
+    'analytics.createMetricParam',
+    analytics.createMetricParam);
+
 // EXTRAS...
 
 // Filters
